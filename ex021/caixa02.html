@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+header{
+    
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 1px 1px 1px black;/*sombra da pra usar o dev nav*/
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover{
+text-decoration: underline;
+}
+main{
+     background-color: white;
+    padding: 10px;
+    margin: 10px;
+    margin: 10px;
+    border-radius:20px ;/*boleado*/
+    box-shadow: 4px 4px 4px 4px black;/*essee e a sombra*/
+}
+article{
+    background-color: lightslategray;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(165, 165, 165);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 0px;
+}
+footer >p{
+    margin: 0px;
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;/*isso e para deixar redondo*/
+}
+    </style>
+</head>
+<body>
+    <!-- div box level-->
+    <!-- span inline-level-->
+
+<header><!--cabeçario-->
+<h1>Meu site</h1>
+<nav><!--menu-->
+
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</nav>
+</header>
+
+<main><!--conteudo principal-->
+<section id="assuntos">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit excepturi exercitationem nihil qui, soluta esse praesentium cum veniam ipsum accusamus! Autem itaque rem consequuntur corporis beatae porro veniam perferendis? Quasi.</p>
+</section>
+<section id="noticias">
+     <article>
+        <h2>noticias sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, facilis qui eum culpa molestiae odit expedita autem repudiandae deleniti vitae amet doloribus labore earum mollitia ducimus, error repellendus dicta enim!</p>
+            <aside>
+                <p>Artigo escrito por marcio </p>
+            </aside>
+    </article>
+</section>
+</main>
+
+<footer><!--rodape-->
+<p>desenvolvido pelo curso em video</p>
+</footer>
+<div id="bola"></div>
+
+
+</body>
+</html>

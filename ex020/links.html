@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+     a{
+        color: rgb(247, 2, 2);/*esse muda todos od links*/
+        text-decoration: none;
+        font-weight: bold;
+     }
+     a:visited{/*visited sao sites que vc ja entrou*/
+color: rgb(104, 6, 6);
+     }
+     a:hover{/*como virmos esse e para mudar a cor passando o mouse*/
+        color: black;
+        text-decoration: underline;
+     }
+     a:active{/*esse e para quando clicar no link muda a cor*/
+        color: yellow;
+     }
+
+/*pseuso elemento: : para css*/
+a::after{
+    content: ' [Link]';/* content e conteudo*/
+text-decoration: none;
+font-weight: normal;
+color: aqua;
+
+}
+.especial::before{/*deois*/
+content:'⇒';
+}
+.especial::after{/*antes*/
+    content: '⟸';
+}
+
+/*
+#   id
+.   class
+:   pseudo-class
+::   pseudo-element
+>   clildrem filho*/
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+   <h1>Personalizando Links</h1> 
+   <ul>
+    <li><a href="https://gustavoguanabara.github.io " target="_blank">Repositorio Github</a></li>
+    <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do YouTube</a></li>
+    <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Curso em video</a></li>
+   </ul>
+   <!--so para nao esqueser target e para abrir outra pagina-->
+</body>
+</html>

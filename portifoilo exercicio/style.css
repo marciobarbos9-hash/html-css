@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gloria+Hallelujah&family=Goldman:wght@400;700&family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+body{
+   background: linear-gradient( to right, #0099E0, #0052E0, #000BE0);
+}
+
+h1{
+    margin: -4px;
+    text-align: center;
+     font-family: "Gloria Hallelujah", "cursive" ;
+  font-weight: 400;
+  font-style: normal;
+}
+hr{
+    width: 80%;
+   
+  
+}
+h2{
+    margin: -1px;
+    text-align: center;
+     font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    margin: 50px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.item:hover{
+    background: linear-gradient( to right, #0099E0, #0052E0, #000BE0);
+}
+.item{
+    padding: 10px;
+   border-radius: 10px;
+    background-color: rgb(207, 207, 207);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+   font-size: 15px;
+   align-items: center;
+   flex-direction: column;/*para deixar em coluna oque esta dentro*/
+   text-align: center;
+
+}
+button{
+   background-color: rgb(5, 73, 218);
+   display: flex;
+   text-decoration: none;
+   border-radius: 700px;
+   color: white;
+   border: none;
+   padding: 10px;
+}
+button:hover{
+   text-shadow: 5px 5px 5px black;
+}
+a{
+    text-decoration: none;
+}
