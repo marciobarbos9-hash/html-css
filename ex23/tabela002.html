@@ -11,6 +11,8 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+
         }
         caption{
             font-size: 1.5em;
@@ -18,9 +20,17 @@
         td,th{
             border: 1px solid black;
             padding: 10px;
+            top: 0;
+           
         }
+thead >tr >th {/*deixa cabeçario fixo*/
+    position: sticky;
+    top: -1px;
+     background-color:gray ;
+
+}
         thead{
-            background-color: gray;
+             background-color:gray ;
             color: white;
         }
         tbody tr:nth-child(2n){/*faz zebrado na tabela*/
