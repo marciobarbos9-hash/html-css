@@ -15,8 +15,20 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
-menu{
+#burguer{
+    background-color: rgb(59, 59, 59);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;/*isso faz com que iconi do mouse vire maozinha*/
+}
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+menu{
+    display: none;
 }
 menu > ul{
     list-style-type: none;
