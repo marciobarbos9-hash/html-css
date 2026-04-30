@@ -8,13 +8,15 @@
         .container{
             display: flex;
         background-color: aqua;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         }
         .itens{
         background-color: chartreuse;
         border: 1px solid black;
         text-align: center;
         flex-basis: 150px;
+        flex-shrink: 1;
+        flex-grow: 1;
         }
     </style>
 </head>
