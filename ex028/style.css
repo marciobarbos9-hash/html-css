@@ -22,10 +22,10 @@ header{
     flex: 0 0 200px;
 }
 h1{
-border: 1px dotted black;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
 }
 nav{
-    border: 1px dotted black;
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
