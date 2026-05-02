@@ -15,12 +15,34 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 200px;
 }
 h1{
 border: 1px dotted black;
 }
 nav{
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color ,1s;
 }
 main{
     background-color: white;
