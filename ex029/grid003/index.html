@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout na pratica</title>
+    <style>
+        .container{
+            border:3px solid blue ;
+            
+            display: grid;
+            grid-template: repeat(3, 50px)/ repeat(3, auto);
+            grid-auto-rows:  50px;
+            grid-auto-columns: 50px;
+            gap: 20px;
+            padding: 10px;
+            align-items: normal;
+            justify-items: normal;
+            align-content: normal;
+            justify-content: normal;
+        }
+        .caixa1{
+            grid-row-start: 1;
+          grid-row-end: 2;
+          grid-column-start: 1;
+          grid-column-end: 5;
+          background-color: black;
+          color: white;
+        }
+        .item{
+           border: 2px solid black;
+            padding: 5px;
+           background: linear-gradient(to right, rgb(9, 255, 0), rgba(14, 97, 18, 0.432));
+          
+        }
+        
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="caixa1">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+        <div class="item">h</div>
+        <div class="item">i</div>
+        <div class="item">i</div>
+        
+    </div>
+</body>
+</html> 
